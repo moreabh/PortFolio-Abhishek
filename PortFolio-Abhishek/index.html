@@ -3,222 +3,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-     crossorigin="anonymous" 
-     referrerpolicy="no-referrer" />
+    <title>Abhishek More - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <style>
+       
+    </style>
 </head>
 <body>
-    <main id="mainBody">
-        <div class="nameBox" data-aos="fade-up"
-        data-aos-duration="3000">
-            <p>hii,</p>
-            <h1>I am Abhishek More.</h1>
-            <p>A Software Developer</p>
+    <!-- Navigation -->
+    <nav>
+        <a href="#mainBody" class="nav-item active">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#about" class="nav-item">
+            <i class="fa-solid fa-user"></i>
+        </a>
+        <a href="#projects" class="nav-item">
+            <i class="fa-solid fa-code"></i>
+        </a>
+        <a href="#experience" class="nav-item">
+            <i class="fa-solid fa-briefcase"></i>
+        </a>
+        <a href="#achievements" class="nav-item">
+            <i class="fa-solid fa-trophy"></i>
+        </a>
+        <a href="#contact" class="nav-item">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="mainBody">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Abhishek More</h1>
+                <p class="hero-title">Currently an Intern at Qspider, Pune | Focused on Java, Web Development, and Databases And Manual/Automation Tasting</p>
+            </div>
         </div>
-        <nav data-aos="fade-right">
-            <div><a href="#mainBody"><i class="fa-solid fa-house-user"></i></a></div>
-            <div><a href="#about"><i class="fa-solid fa-address-card"></i></a></div>
-            <div><a href="#projects"><i class="fa-solid fa-diagram-project"></i></a></div>
-            <div><a href="#experience"><i class="fa-solid fa-briefcase"></i></a></div>
-            <div><a href="#achievement"><i class="fa-solid fa-trophy"></i></a></div>
-            <div><a href="#contact"><i class="fa-solid fa-address-book"></i></a></div>
-        </nav>
-    </main>
-    <section class="aboutSection" id="about">
-        <main>
-            <article data-aos="fade-right">
-              <img src="./Assests portfolio/40467501_8711569.svg" alt="" width="600" />
-            </article>
-            <article data-aos="fade-left" class="aboutArticle">
-              <h1><ins>About</ins></h1>
-              <p>
-                Hii, I'm Abhishek More. Final Year Electronics & Telecommunication student.
-              </p>
-            <section class="about">
-                <div class="qualification">
-                  <h3>Qualification</h3>
-                  <ul>
-                    <li>
-                      Bachelor's of Technology (Electronics & Telecommunication) 7.5 CGPA
-                    </li>
-                    <li>Department of Technolgy Shivaji University, Kolhapur</li>                  
-                     <li><b>SSC:-</b> Shri Ram HighSchool, Nangnur.(78.20%)</li>
-                    <li>D.K.A.S.C. Collage Ichalkaranji(Science)(78%)</li> 
-                  </ul>
-                </div>
-                <div>
-                  <h3>Skills</h3>
-                  <ul>
-                   <strong>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>Javascript</li>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Nodejs</li>
-                    <li>AWT</li>
-                    <li>SQL</li>
-                    <li>MySQL</li>
-                </strong>
-                  </ul>
-                </div>
-            </section>
-        </article>
-        </main>
-        </section>
-        <section class="projects" id="projects">
-          <main>
-            <h1>What I did ?</h1>
-            <article>
-              <div data-aos="fade-down-right">
-                <h1>ADAS</h1>
-               <p> In this project, we worked on different features present  like
-                automatic upper dipper of headlight, automatic braking system,
-                collision detection technique, automatic wiper on-off technique,
-                eye blinking technique using Raspberry Pi 
-               From this project, I gained knowledge about how the new
-                features work in the ADAS system.</p>
-              </div>
-              <div data-aos="fade-down-left">
-                <h1>Whether Quality Monitoring System</h1>
-                <p> Designed and built a Weather monitoring system using IoT
-                  Technology. 
-                 Used sensors to gather data on temperature, humidity, and Gas
-                  detection, sending it to a web platform(Thing speak) for easy
-                  access worldwide. 
-                 Created visual graphs for clear data representation..</p>
-              </div>
-              <div data-aos="fade-up-right">
-                <h1>Juice Quality Monitoring System</h1>
-               <p>Juice Quality Monitoring System: Developed an IoT-based system to monitor juice quality by measuring parameters like pH, temperature, turbidity, and sugar content. Implemented real-time data analysis with alerts for deviations, enhancing product quality and reducing wastage..</p>
-              </div>
-              <div data-aos="fade-up-left">
-                <h1> Hotel Ordering and Billing Management System</h1>
-               <p>Built a full-stack web application for digital menu display, table-wise ordering, and secure billing. Developed responsive UI with HTML, CSS, and JavaScript, and backend APIs using Node.js andMySQL. Implemented real-time order tracking, payment management, and automatic bill generation. Designed scalable architecture with proper schema design and API integration.</p>
-              </div>
-            </article>
-          </main>
-        </section>
-        <section class="experience" id="experience">
-          <main>
-            <h1>Experience</h1>
-            <article data-aos="flip-up">
-              <h3>Company- Qspider</h3>
-              <h3>Designation- Intern</h3>
-              <h3>Duration - 8 months</h3>
-              <h3>Technologoes : java, React , SpringBoot, BootStrap, HTML5, CSS, SQL, Manual Testing, Selenium</h3>
-              <h3>Projects : </h3>
-              <h3>Description</h3>
-              <p> In this project, we worked on different features present  like
-                automatic upper dipper of headlight, automatic braking system,
-                collision detection technique, automatic wiper on-off technique,
-                eye blinking technique using Raspberry Pi 
-               From this project, I gained knowledge about how the new
-                features work in the ADAS system.</p>
-            </article>
-          </main>
-        </section>
-        <section class="achievements" id="achievement">
-          <main>
-            <h1> Achievements</h1>
-            <article>
-              <div data-aos="fade-down-right">
-                <h1>VollyBall Winner</h1>
-                <p>Successfully led a volleyball team to victory in Shivaji University by demonstrating strategic gameplay, teamwork, and leadership. Contributed to key matches with strong performance, effective communication, and sportsmanship, achieving First Position.</p>
-              </div>
-              <div data-aos="fade-down-left">
-                <h1>TECHFEST-2K24</h1>
-                <p> Coordinator of National Level Technical Project Competition TECHFEST-2K24.</p>
-              </div>
-              <div data-aos="fade-up-right">
-                <h1>ELECTROXTREME 2K25</h1>
-                <p> Coordinator of the ELECTROXTREME 2K25 Competition </p>
-              </div>
-              <div data-aos="fade-up-left">
-                <h1>Coding Competition Winner</h1>
-                <p>2nd place in a coding competition</p>
-              </div>
-            </article>
-          </main>
-        </section>
-        <section class="Contact" id="contact">
-          <main>
-            <h1>Contact</h1>
-            <p class="allLinks">
-              <a href="tel:+919373408742"><i class="fa-solid fa-address-book"></i></a>
-              <a href="mailto:moreabhishek79529@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-              <a href="https://github.com/moreabh "><i class="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/abhishek-more-99a10b21a/"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://wa.me/9373408742"><i class="fa-brands fa-whatsapp"></i></a>
-    
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+   <!-- About Section -->
+<section id="about">
+    <div class="container about-container">
+        
+        <!-- Profile Photo and Resume Button -->
+        <div class="about-left animate-on-scroll">
+            <img src="Assests portfolio/PassportPhotoBGWhite.png" alt="Abhishek More" class="profile-img">
+            
+            <a href="Assests portfolio/Abhishek More.pdf" download class="resume-btn">
+                <i class="fas fa-download"></i> 
+                <span class="btn-label">Resume Download</span>
+            </a>
+        </div>
+
+        <!-- About Content -->
+        <div class="about-right animate-on-scroll">
+            <h2 class="section-title">About Me</h2>
+            <p class="intro-text">
+                I'm Abhishek More, a passionate Final Year Electronics & Telecommunication student with a strong foundation 
+                in software development and emerging technologies.
             </p>
-            <article>
-              <div class="Info">
-                <div>
-                  <p>
-                    <Strong>Name</Strong> : Abhishek Sahadev More.
-                    <a href=""></a>
-                  </p>
+
+            <!-- Qualification -->
+            <div class="qualification-section">
+                <h3>Qualification</h3>
+                <ul class="qualification-list">
+                    <li><strong>B.Tech in Electronics & Telecommunication</strong> - Department of Technology, Kolhapur (2021-2025) - CGPA: 7.5/10</li>
+                    <li><strong>HSC Board (Science)</strong> - D.K.A.S.C. College, Ichalkaranji (2021) - 78.00%</li>
+                    <li><strong>SSC Board</strong> - Shri Ram High School, Nangnur (2019) - 78.20%</li>
+                </ul>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
                 </div>
-                <div>
-                  <p>
-                    <Strong>Contact</Strong> : +91 9373408742
-                    <a href="tel:+919373408742"><i class="fa-solid fa-address-book"></i></a>
-                  </p>
+
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Flask</span>
+                    </div>
                 </div>
-                <div>
-                  <p>
-                    <Strong>Gmail</Strong> : moreabhishek79529@gmail.com 
-                    <a href="mailto: moreabhishek79529@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                  </p>
+
+                <div class="skill-category">
+                    <h3>Database & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
                 </div>
-                <div>
-                  <p>
-                    <Strong>GitHub</Strong> : https://github.com/moreabh 
-                    <a href="https://github.com/moreabh"><i class="fa-brands fa-github"></i></a>
-                  </p>
+
+                <div class="skill-category">
+                    <h3>Other Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Java AWT</span>
+                        <span class="skill-tag">Eclipse</span>
+                        <span class="skill-tag">PLC Basics</span>
+                    </div>
                 </div>
-                <div>
-                  <p>
-                    <Strong>Linkedin</Strong> :https://www.linkedin.com/in/abhishek-more-99a10b21a/
-                    <a href="https://www.linkedin.com/in/abhishek-more-99a10b21a/"><i class="fa-brands fa-linkedin"></i></a>
-                  </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <h3>Hotel Ordering and Billing Management System</h3>
+                    <p>Built a full-stack web application for digital menu display, table-wise ordering, and secure billing. Developed responsive UI with HTML, CSS, and JavaScript, and backend APIs using Node.js and MySQL. Implemented real-time order tracking, payment management, and automatic bill generation with scalable architecture.</p>
+                    <div class="project-tech">
+                        <span class="tech-item">HTML5</span>
+                        <span class="tech-item">CSS3</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">Node.js</span>
+                        <span class="tech-item">MySQL</span>
+                    </div>
                 </div>
-                <div>
-                  <p>
-                    <Strong>WhatsApp</Strong> : +91 9373408742
-                    <a href="https://wa.me/9373408742"><i class="fa-brands fa-whatsapp"></i></a>
-                  </p>
-                </div><div>
-                  <p>
-                    <Strong>address </Strong> : Ichalkaranji, Maharashtra 
-                    <a href=""><i class="fa-solid fa-location-dot"></i></a>
-                  </p>
+                <div class="project-card animate-on-scroll">
+                    <h3>ADAS System (2025)</h3>
+                    <p>Worked on Advanced Driver Assistance System features including auto headlight dipper, automatic braking, collision detection, wiper control, and eye-blink detection using Raspberry Pi. Gained hands-on experience with modern vehicle safety systems and embedded programming.</p>
+                    <div class="project-tech">
+                        <span class="tech-item">Raspberry Pi</span>
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">Computer Vision</span>
+                        <span class="tech-item">IoT</span>
+                    </div>
                 </div>
-                <div>
+                <div class="project-card animate-on-scroll">
+                    <h3>Real Time Juice Quality Monitoring System</h3>
+                    <p>Analyzed physiological signals like heart rate, temperature, and skin resistance. Implemented ML algorithms with Flask backend for real-time quality assessment and monitoring. Built responsive web interface for data visualization and system control.</p>
+                    <div class="project-tech">
+                        <span class="tech-item">Machine Learning</span>
+                        <span class="tech-item">Flask</span>
+                        <span class="tech-item">HTML5</span>
+                        <span class="tech-item">CSS3</span>
+                        <span class="tech-item">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Developed a personal website to showcase professional details, resume, and projects. Built using HTML and CSS with responsive and clean design. Features smooth animations, modern UI/UX, and optimized performance across all devices.</p>
+                    <div class="project-tech">
+                        <span class="tech-item">HTML5</span>
+                        <span class="tech-item">CSS3</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Experience</h2>
+            <div class="experience-card animate-on-scroll">
+                <h3>Software Development Intern</h3>
+                <div class="company">Qspider</div>
+                <div class="duration">8 months</div>
+                <p>Comprehensive training and hands-on experience in full-stack development, testing methodologies, and modern web technologies. Worked on multiple projects involving both frontend and backend development, gaining expertise in Java ecosystem and modern web frameworks.</p>
+                <div class="tech-stack">
+                    <span class="tech-item">Java</span>
+                    <span class="tech-item">React</span>
+                    <span class="tech-item">Spring Boot</span>
+                    <span class="tech-item">Bootstrap</span>
+                    <span class="tech-item">HTML5</span>
+                    <span class="tech-item">CSS3</span>
+                    <span class="tech-item">SQL</span>
+                    <span class="tech-item">Manual Testing</span>
+                    <span class="tech-item">Selenium</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card animate-on-scroll">
+                    <i class="fas fa-volleyball-ball"></i>
+                    <h3>Volleyball Runner-Up</h3>
+                    <p>Two-time runner-up in volleyball at Shivaji University, Kolhapur, demonstrating consistent athletic performance, teamwork, and competitive spirit in university-level sports.</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <i class="fas fa-users"></i>
+                    <h3>EISA Committee Member</h3>
+                    <p>Member of EISA Committee 2024, actively participating in organizing technical events and coordinating various activities to foster student engagement and technical growth.</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <i class="fas fa-cogs"></i>
+                    <h3>TECHFEST-2K24 Coordinator</h3>
+                    <p>Coordinator of National Level Technical Project Competition TECHFEST-2K24, managing large-scale technical events and promoting innovation among engineering students nationwide.</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <i class="fas fa-bolt"></i>
+                    <h3>ELECTROXTREME 2K25 Coordinator</h3>
+                    <p>Coordinator of the ELECTROXTREME 2K25 Competition, organizing technical challenges, workshops, and competitions focused on electronics and electrical engineering innovations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Let's Connect</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <strong>Name:</strong> Abhishek Sahadev More
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone:</strong> +91 9373408742
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email:</strong> moreabhishek79529@gmail.com
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location:</strong> Ichalkaranji, Maharashtra
+                        </div>
+                    </div>
+                     <div>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.962150215753!2d74.43482527491791!3d16.678777384092566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0e3b076e52749%3A0x868db2265dd5cf30!2zQWJoaXNoZWsgTW9yZSAs4KSF4KSt4KS_4KS34KWH4KSVIOCkruCli-CksOClhw!5e0!3m2!1sen!2sin!4v1741856062963!5m2!1sen!2sin" width="500" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-              </div>
-              <div class="Contact-form">
-                <form action="">
-                  <input type="text" placeholder="Enter subject">
-                  <textarea name="" id="" placeholder="Description "></textarea>
-                  <a id="submitLink">Contact me</a>
-                </form>
-              </div>
-            </article>
-          </main>
-        </section>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
-        <script src="script.js"></script>
-      </body>
-    </html>
+
+
+                    <div class="social-links">
+                        <a href="https://github.com/moreabh" class="social-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abhishek-more-99a10b21a/" class="social-link linkedin" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/9373408742" class="social-link whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://instagram.com/abhishek__1834" target="_blank" class="social-link instagram">
+                             <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="tel:+919373408742" class="social-link phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="mailto:moreabhishek79529@gmail.com" class="social-link mail">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="contact-form animate-on-scroll">
+                    <h3>Send Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+
+
+
+    
+        
